@@ -7,22 +7,18 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+
+ {
   "sections": {
     "main": {
-      "type": "hello-world",
-      "settings": {}
-    }
-    "main" {
+      "type": "main-page"
+    },
+    "manifesto": {
       "type": "manifesto"
-      "settings" {}
-    }
-    "main" {
+    },
+    "drop": {
       "type": "drop"
-      "settings": {}
     }
   },
-  "order": [
-    "main"
-  ]
+  "order": ["main", "manifesto", "drop"]
 }
